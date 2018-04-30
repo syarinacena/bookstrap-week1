@@ -11,6 +11,51 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="jumbotron text-center" >
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
    
     <h1>Hello, world!</h1>
   </div>
@@ -134,4 +179,205 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
+
+
+
+
+  <form>
+  <div class="form-group">
+    <label for="exampleInputName">Name</label>
+    <br> <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+    
+  </div>
+  <div class="form-group">
+   <br> <label for="exampleInputEmail1">Email</label></div>
+    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+    <br><label for="exampleInputMessage1">Message</label></div>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Message">
+
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Gender</label>
+    <br><select class="form-control" id="exampleFormControlSelect1">
+      <option>Male</option>
+      <option>Female</option>
+      
+    </select>
+  </div>
+ 
+  
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Select File</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    <small id ="fileHelp" class="form-text text-muted">Only png and jpg is allowed</small>
+  </div>
+
+   <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+  <button type="submit" class="btn btn-outline-dark">Submit</button>
+</form>
+
+
+<hr>
+<h2>Table</h2>
+
+<table class="table table-striped table-boarded">
+  
+  <thead>
+    <tr class="bg-primary text-align">
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+
+    </tr>
+
+ </thead>
+ <tbody>
+
+    <tr>
+      <td>Kirin</td>
+      <td>kirin@gmail.com</td>
+      <td>0116343796</td>
+
+
+      <tr>
+      <td>mira</td>
+      <td>mira@gmail.com</td>
+      <td>01274457857</td>
+    </tbody>
+</table>
+<hr>
+<h2>Bootsrap Column System</h2>
+
+<div class="row">
+
+  <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+</div>
+
+<h2>About Us</h2>
+
+<div class="row">
+
+  <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+<div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</div>
+
+
+<h3>Our Client</h3>
+<div class="row">
+  <div class="col-2">Samsung</div>
+  <div class="col-2">Huawei</div>
+  <div class="col-2">Oppo</div>
+  <div class="col-2">Vivo</div>
+  <div class="col-2">Nokio</div>
+  <div class="col-2">Xiomi</div>
+
+</div>
+
+<div class="row text-centered">
+  <div class="col-2">Mac</div>
+  <div class="col-2">Asus</div>
+  <div class="col-2">Lenovo</div>
+  <div class="col-2">Acer</div>
+  <div class="col-2">HP</div>
+  <div class="col-2">PC 1 Malaysia</div>
+
+</div>
+
+<h3>Our Products</h3>
+<div class="row">
+  <div class="col-3">
+    <img src=http://1.bp.blogspot.com/-MxwtkWkyVWk/VS5_9SeTDsI/AAAAAAAACF8/qf1jzjig80s/w1200-h630-p-k-no-nu/nokia-logo-vector.png class="img-fluid">
+  </div>
+
+  <div class="col-9">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+  div class="row">
+  <div class="col-3">
+    <img src=https://assorted.downloads.oppo.com/static/archives/images/en/Smartphones/F3%20Plus/thumbnail-259x300-f3plus.png class="img-fluid">
+  </div>
+
+  <div class="col-9">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
